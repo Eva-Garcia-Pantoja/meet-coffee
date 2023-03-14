@@ -1,0 +1,157 @@
+ * {
+  /* border: solid purple;
+  margin: 2px; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* barra de navegacion */
+.oscuro ul {
+  display: flex;
+  /* para que no aparezca los puntos */
+  list-style: none;
+  align-items: center;
+}
+.oscuro ul li{    
+    margin-left: 34px;
+    
+}
+.oscuro ul li a{
+  /* sin decoración para que no aparezca el subrayado */
+  text-decoration: none;
+  color: #FFFFFF;
+
+
+  
+}
+
+nav{
+    background-color: #000F08;
+    padding: 10px;  
+    /* barra de navegacion inmovil */
+    position: fixed;
+    /* porcentaje para que ocupe la pantalla completa */
+    width: 100%;
+
+}
+
+/* .svg_img{
+    font-size: 30px;
+    fill: #FFFFFF;
+} */
+
+/* SECCION HEADER */
+header{
+    background-image: url('../img/bg-hero.png');
+    height: 422px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-right: 34px;
+    text-shadow: 3px 3px 1px #00000080;
+}
+
+header h1{  
+    padding-top: 52px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subtitulo{
+    
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+/* seccion de ubicacion */
+#ubicacion{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    
+}
+#ubicacion h2{
+    font-size: 45px;
+    font-weight: 700px;
+    padding-top: 20px;
+    color: #000F08;
+}
+#ubicacion p{
+    padding-top: 18px;
+    letter-spacing: 0.5px;
+}
+
+/* seccion de proxima charla */
+
+.sweet-brown{
+    background-color: #a4452c;
+    padding: 104px 312px;
+
+}
+.centrado{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.charla-texto{
+    padding-left: 50px;
+}
+.charla-texto h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.charla-texto h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.charla-texto h4{
+    font-size: 33px;
+    font-weight: 400;
+}
+.charla-texto{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.charla-texto h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* seccion de eventos */
+#eventos{
+    text-align: center;
+    padding: 30px 10px;
+}
+#eventos h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.div_articles{
+    display: flex;
+    justify-content: center;
+
+}
+
+.evento{
+    margin: 10px 20px;
+    
+}
+/* seccion footer */
+
+.oscuro{
+    background-color: #000F08;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 2px;
+}
+/* cambio de color del fondo a los iconos de redes sociales  */
+.oscuro a i{
+    color: #FFFFFF;
+}
+
+
